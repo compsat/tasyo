@@ -1,0 +1,42 @@
+*{
+	margin:none;
+	padding:none;
+}
+
+body{
+	margin:20px;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+	transition: 0.5s;
+	margin-right:50px;
+	font-size:20px;
+}
+
+a:hover{
+	color:#4cace4;
+	border-bottom:solid 2px #4cace4;
+	display:inline-block;
+	transform: scale(1.1,1.1);
+}
+
+.navbar{
+	position:relative;
+	font-size:25px;
+}
+
+.navbar div{
+	margin-right:35px;
+	display:inline-block;
+}
+
+.navbar .logo{
+
+}
+
+.navbar .logo img{
+	width:130px;
+	height:80px;
+}
