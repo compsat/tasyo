@@ -1,7 +1,3 @@
-*{
-	margin:none;
-	padding:none;
-}
 
 body{
 	margin:20px;
@@ -11,24 +7,30 @@ a{
 	text-decoration: none;
 	color:black;
 	transition: 0.5s;
-	margin-right:50px;
-	font-size:20px;
 }
 
 a:hover{
 	color:#4cace4;
-	border-bottom:solid 2px #4cace4;
 	display:inline-block;
 	transform: scale(1.1,1.1);
+}
+
+.navbar div{
+	margin-right:50px;
+}
+
+.navwords {
+	transform: translate(-10px, -20px);
 }
 
 .navbar{
 	position:relative;
 	font-size:25px;
+	background: white;
 }
 
 .navbar div{
-	margin-right:35px;
+	margin:0px 35px;
 	display:inline-block;
 }
 
@@ -39,4 +41,130 @@ a:hover{
 .navbar .logo img{
 	width:130px;
 	height:80px;
+}
+
+.aboutus {
+	  padding: 140px 0px 160px 0px;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  
+}
+
+.aboutus h1{
+	font-family: 'Lobster', cursive;
+	margin: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  color: #4cace4;
+  text-align: center;
+}
+
+.aboutus h2{
+	font-family: 'Lobster', sans-serif;
+	color: #4cace4;
+  font-size: 24px;
+  margin: auto;
+  font-weight: 500;
+  
+  text-align: center;
+}
+
+.seeall {
+	color:#7c644c;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.seeall:hover{
+	color:#e4ac8c;
+	transform: scale(1.1);
+}
+
+.socialmedia{
+	text-align: center;
+}
+
+.socialmedia .icon{
+	font-size:100px;
+	margin:0px 40px;
+}
+
+.audiosection {
+	background: #fcccd4;
+  text-align: center;
+  padding: 60px 0px 120px 0px;
+  width: 100%;
+}
+
+.audiosection h1 {
+  margin: 0px;
+  color: #e4ac8c;
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  font-size: 3em;
+  margin-bottom: 50px !important;
+}
+
+.audio-container {
+  margin: auto !important;
+  width: 1080px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+}
+
+.audio-panel {
+  width: 270px;
+  background: white;
+  height: 500px;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: 12px;
+  margin-right: 12px;
+  display: grid;
+  grid-template-rows: 216px 32px 32px 170px auto;
+}
+
+.panel-img {
+  width: 270px;
+  height: 200px;
+  margin-bottom: 16px;
+}
+
+.audio-panel h2 {
+  margin: 0px;
+  color: #e4ac8c;
+  font:  16px/23px Lobster, sans-serif;
+  height: 16px;
+  margin-bottom: 16px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+}
+
+.audio-panel h3 {
+  margin: 0px;
+  font:  11px Lobster, sans-serif;
+  color: #e4ac8c;
+  height: 14px;
+  margin-bottom: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.audio-panel p {
+  margin: 0px;
+  font: 300 14px/20px Lobster, sans-serif;
+  color: #e4ac8c;
+  max-height: 240px;
+  margin-bottom: 16px;
+  line-height: 180% !important;
 }
