@@ -1,16 +1,21 @@
 
 body{
-	margin:20px;
+	margin:0px;
 }
 
 a{
 	text-decoration: none;
-	color:black;
-	transition: 0.5s;
+	color:white;
 }
 
-a:hover{
-	color:#4cace4;
+.navbar a{
+  text-decoration: none;
+  color:white;
+  transition: 0.5s;
+}
+
+.navbar a:hover{
+	color:#1c4464;
 	display:inline-block;
 	transform: scale(1.1,1.1);
 }
@@ -26,7 +31,7 @@ a:hover{
 .navbar{
 	position:relative;
 	font-size:25px;
-	background: white;
+	background: #44ace4;
 }
 
 .navbar div{
@@ -44,10 +49,10 @@ a:hover{
 }
 
 .aboutus {
-	  padding: 140px 0px 160px 0px;
+	padding: 140px 0px 160px 0px;
   width: 100%;
   margin: auto;
-  background-color: white;
+  background-color: #4cace4;
   position: relative;
   
 }
@@ -60,13 +65,13 @@ a:hover{
   font-size: 80px;
   letter-spacing: 0.05em;
   display: inline-block;
-  color: #4cace4;
+  color: white;
   text-align: center;
 }
 
 .aboutus h2{
 	font-family: 'Lobster', sans-serif;
-	color: #4cace4;
+	color: white;
   font-size: 24px;
   margin: auto;
   font-weight: 500;
@@ -74,24 +79,15 @@ a:hover{
   text-align: center;
 }
 
-.seeall {
+.seeallbutton {
 	color:#7c644c;
 	cursor: pointer;
 	transition: 0.5s;
 }
 
-.seeall:hover{
+.seeallbutton:hover{
 	color:#e4ac8c;
 	transform: scale(1.1);
-}
-
-.socialmedia{
-	text-align: center;
-}
-
-.socialmedia .icon{
-	font-size:100px;
-	margin:0px 40px;
 }
 
 .audiosection {
@@ -168,3 +164,94 @@ a:hover{
   margin-bottom: 16px;
   line-height: 180% !important;
 }
+
+footer a{
+  color:black;
+}
+
+footer a:hover{
+  color: #1c4464;
+}
+
+footer{
+  position: relative;
+}
+
+footer ul li{
+  color:#222;
+  font-size:20px;
+  list-style-type: none;
+  margin:0;
+  margin-bottom: 10px;
+}
+
+footer ul li a{
+  color:#222;
+}
+
+.desc{
+  margin-bottom:15px;
+  font-size:25px;
+}
+
+.upper{
+  background-color: #white;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-auto-rows: auto;
+  justify-items: center;
+  grid-row-gap: 1em;
+  margin:20px 0;
+}
+
+.upper .div{
+  height:100%;
+  width: 100%;
+}
+
+.upper .item1{
+  grid-column: 2/3;
+}
+
+.upper .item2{
+  grid-column: 3/4;
+}
+
+.disclaimer{
+  text-align: center;
+  font-size:10px;
+  margin:20px 0;
+}
+
+.lower{
+  background-color: #ccc;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.logo1 img{
+  width: 50px;
+  height: 30px;
+}
+
+.lower .logo1{
+  grid-column: 1/2;
+  justify-self:center;
+  align-self: center;
+}
+
+.lower .contact{
+  grid-column: 2/3;
+}
+
+.lower .container{
+  font-size: 20px;
+  margin:7px 0;
+  justify-self:end;
+  grid-column: 3/4;
+}
+
+.lower .icon{
+  margin:0 5px;
+}
+
