@@ -39,9 +39,6 @@ a{
 	display:inline-block;
 }
 
-.navbar .logo{
-
-}
 
 .navbar .logo img{
 	width:130px;
@@ -79,16 +76,18 @@ a{
   text-align: center;
 }
 
-.seeallbutton {
+.seeall {
 	color:#7c644c;
 	cursor: pointer;
 	transition: 0.5s;
 }
 
-.seeallbutton:hover{
+.seeall:hover{
 	color:#e4ac8c;
 	transform: scale(1.1);
 }
+
+
 
 .audiosection {
 	background: #fcccd4;
@@ -182,7 +181,7 @@ footer ul li{
   font-size:20px;
   list-style-type: none;
   margin:0;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 footer ul li a{
@@ -190,7 +189,7 @@ footer ul li a{
 }
 
 .desc{
-  margin-bottom:15px;
+  margin-bottom:75px;
   font-size:25px;
 }
 
@@ -201,12 +200,17 @@ footer ul li a{
   grid-auto-rows: auto;
   justify-items: center;
   grid-row-gap: 1em;
-  margin:20px 0;
+  margin-top:70px;
+  margin-bottom:100px;
 }
 
 .upper .div{
   height:100%;
   width: 100%;
+}
+
+.upper img{
+  margin-right: 15px;
 }
 
 .upper .item1{
@@ -215,6 +219,28 @@ footer ul li a{
 
 .upper .item2{
   grid-column: 3/4;
+}
+
+.item1 img{
+  height:40px;
+  width: 40px;
+}
+
+.item2 .admup{
+  height:40px;
+  width:40px;
+  margin-right:44px;
+  margin-left:32px;
+}
+
+.item2 .radyo{
+  height:40px;
+  width: 100px;
+}
+
+.item2 .compsat{
+  height:40px;
+  width: 100px;
 }
 
 .disclaimer{
