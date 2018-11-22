@@ -1,6 +1,10 @@
+@font-face {
+  font-family: 'lobster';
+  src: url(fonts/Lobster-Regular.ttf) format('truetype');
+}
 
 body{
-	margin:0px;
+	margin:0px; 
 }
 
 a{
@@ -55,7 +59,7 @@ a{
 }
 
 .aboutus h1{
-	font-family: 'Lobster', cursive;
+	font-family: 'lobster', cursive;
 	margin: auto;
   font-style: normal;
   font-weight: 900;
@@ -67,7 +71,7 @@ a{
 }
 
 .aboutus h2{
-	font-family: 'Lobster', sans-serif;
+	font-family: 'lobster', sans-serif;
 	color: white;
   font-size: 24px;
   margin: auto;
