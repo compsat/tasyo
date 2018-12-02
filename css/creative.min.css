@@ -223,14 +223,15 @@ footer hr{
 }
 
 .upper .item1{
-  padding-bottom:100vh;
-  height:100%;
+  padding-bottom:150px;
+  height:100vh;
   width:100%;
 }
 
 .upper .item2{
-  padding-bottom:100vh;
-  height:100%;
+  margin-top: 20px;
+  padding-bottom:70px;
+  height:100vh;
   width:100%;
   display: grid;
   grid-template-rows: auto;
