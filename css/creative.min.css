@@ -229,7 +229,7 @@ footer hr{
 }
 
 .upper .item2{
-  margin-top: 20px;
+  padding-top: 70px;
   padding-bottom:70px;
   height:100vh;
   width:100%;
@@ -309,4 +309,12 @@ footer .copyright{
 .btn-lg{
   font-size:16px;
   padding:25px 35px
+}
+
+#sponsors {
+  background-color: #f05f40;
+}
+
+.section-heading {
+  padding-top: 65px;
 }
