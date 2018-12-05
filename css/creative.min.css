@@ -240,7 +240,7 @@ footer hr{
 }
 
 .upper .item2{
-  margin-top: 20px;
+  padding-top: 70px;
   padding-bottom:70px;
   height:100vh;
   width:100%;
@@ -286,6 +286,10 @@ footer {
   padding: 2em;
   background-color: #212529;
   color: #AAA;
+}
+
+footer img {
+  width: 100%;
 }
 
 footer .list-inline{
@@ -336,9 +340,4 @@ footer .about-footer {
 .btn-lg{
   font-size:16px;
   padding:25px 35px
-}
-
-/* Custom code */
-img {
-  width: 100%;
 }
